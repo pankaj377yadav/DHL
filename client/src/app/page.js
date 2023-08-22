@@ -24,14 +24,15 @@ const Home = () => {
           margin={"100px"}
           padding={"50px"}
         >
-          <Heading padding={"50px"} color="gray">
+          <Heading padding={"50px"} color="red">
             Welcome To DHL
+            
           </Heading>
           <Wrap spacing={20} margin={"10px"}>
             <ChakraLink href="/login" isInternal>
               <WrapItem>
                 <Button
-                  colorScheme="gray"
+                  colorScheme="green"
                   padding={"50px"}
                   margin={"20px"}
                   fontSize={24}

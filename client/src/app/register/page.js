@@ -4,15 +4,19 @@ import { Formik, Form, Field } from 'formik';
 import * as Yup from 'yup';
 
 const SignupSchema = Yup.object().shape({
-  firstName: Yup.string()
+  fullName: Yup.string()
     .min(2, 'Too Short!')
     .max(50, 'Too Long!')
     .required('Required'),
-  lastName: Yup.string()
+  phoneNumber: Yup.string()
     .min(2, 'Too Short!')
     .max(50, 'Too Long!')
     .required('Required'),
     passWord: Yup.string()
+    .min(2, 'Too Short!')
+    .max(50, 'Too Long!')
+    .required('Required'),
+    comfirmPassword: Yup.string()
     .min(2, 'Too Short!')
     .max(50, 'Too Long!')
     .required('Required'),
@@ -23,12 +27,13 @@ const SignupSchema = Yup.object().shape({
 
 const ValidationSchemaExample = () => (
   <div>
-    <h1>Signup</h1>
+    <h1>Sign up</h1>
     <Formik
       initialValues={{
-        firstName: '',
-        lastName: '',
+        fullName: '',
+        phoneNumber: '',
         passWord: "",
+        comfirmPassword: "",
         email: '',
       }}
       validationSchema={SignupSchema}
@@ -39,21 +44,27 @@ const ValidationSchemaExample = () => (
     >
       {({ errors, touched }) => (
         <Form>
-          <Field name="firstName"
+          <Field name="fullName"
           placeholder="Full Name"/>
-          {errors.firstName && touched.firstName ? (
-            <div>{errors.firstName}</div>
+          {errors.fullName && touched.fullName ? (
+            <div>{errors.fullName}</div>
           ) : null}
-          <Field name="lastName"
-          placeholder="Last Name" />
-          {errors.lastName && touched.lastName ? (
-            <div>{errors.lastName}</div>
+          <Field name="phoneNumber"
+          placeholder="Phone Number" />
+          {errors.phoneNumber && touched.phoneNumber ? (
+            <div>{errors.phoneNumber}</div>
           ) : null}
           <Field name="passWord"
           placeholder="PassWord"
           type="password"/>
           {errors.passWord && touched.passWord ? (
             <div>{errors.passWord}</div>
+          ) : null}
+           <Field name="comfirmPassword"
+          placeholder="Comfirm Password"
+          type="comfirmPassword"/>
+          {errors.comfirmPassword && touched.comfirmPassword ? (
+            <div>{errors.comfirmPassword}</div>
           ) : null}
           <Field name="email"
           placeholder="Email" type="email" />
