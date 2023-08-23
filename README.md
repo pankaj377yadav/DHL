@@ -2,7 +2,11 @@
 
 Welcome to the TrackSwift repository! TrackSwift is an innovative Order Tracking App designed to provide users with a seamless and efficient way to track their orders, just like popular services such as DHL and FedEx. While still in its initial phases, TrackSwift aims to revolutionize order tracking by offering a user-friendly interface, real-time updates, and comprehensive order management.
 
+<<<<<<< HEAD
 ![TrackSwift App Logo](client/public/TrackSwift_logo.jpg)
+=======
+![TrackSwift App Logo](client/public/TrackSwift_logo.png)
+>>>>>>> 89d72f16d290ac11e2fd12a0615b1b0471db13ae
 
 ## Table of Contents
 
@@ -66,4 +70,8 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Thank you for your interest in TrackSwift! We're excited to bring you a top-notch Order Tracking App. If you have questions or feedback, feel free to reach out via the repository.
 
+<<<<<<< HEAD
 Stay tuned for updates!# DHL# DHL
+=======
+Stay tuned for updates!# DHL
+>>>>>>> 89d72f16d290ac11e2fd12a0615b1b0471db13ae
