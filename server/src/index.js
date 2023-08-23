@@ -4,7 +4,6 @@ const app = express();
 const User = require("./models/user")
 const UserRouter = require('./routes/user') 
 app.use(express.json());
-// console.log(UserRouter)
 connect();
 require('dotenv').config()
 const port = process.env.PORT;

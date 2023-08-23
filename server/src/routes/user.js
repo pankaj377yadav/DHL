@@ -5,7 +5,7 @@ const UserController = require("../controllers/user")
 
 router.post("/register", UserController.registerNewUser)
   
-  router.get('/users/:id',UserController.getUserById)
+  // router.get('/users/:id',UserController.getUserById)
   // router.post('/users', async(req, res) =>{
   // const t = await User.exists({fullName : req.body.fullName})
   // console.log(t)
