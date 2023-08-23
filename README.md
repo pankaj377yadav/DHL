@@ -66,8 +66,4 @@ This project is licensed under the MIT License. See the [LICENSE](LICENSE) file 
 
 Thank you for your interest in TrackSwift! We're excited to bring you a top-notch Order Tracking App. If you have questions or feedback, feel free to reach out via the repository.
 
-<<<<<<< HEAD
-Stay tuned for updates!# DHL# DHL
-=======
-Stay tuned for updates!# DHL
->>>>>>> 89d72f16d290ac11e2fd12a0615b1b0471db13ae
+Stay tuned for updates!# TrackSwift # TrackSwift
