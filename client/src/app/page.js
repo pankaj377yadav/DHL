@@ -58,8 +58,8 @@ const Home = () => {
           <Image
             direction="row"
             className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-            src="/dhl-logo.jpg"
-            alt="dhl-logo.jpgs "
+            src="/TrackSwift_logo.jpg"
+            alt="TrackSwift_logo.jpg "
             width={180}
             height={180}
             padding={"50px"}
